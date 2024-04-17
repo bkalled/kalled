@@ -1,0 +1,48 @@
+ body
+ {
+     font-family: 'Gill Sans',  sans-serif;
+ }
+ div
+ {
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+      position: relative;
+      -webkit-animation-name: chgm-couleur;
+      -webkit-animation-duration: 4s;
+      -webkit-animation-timing-function: ease;
+      -webkit-animation-delay: 3s;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+
+
+      -moz-animation-name: chgm-couleur;
+      -moz-animation-duration: 4s;
+      -moz-animation-timing-function: ease;
+      -moz-animation-delay: 3s;
+      -moz-animation-iteration-count: infinite;
+      -moz-animation-direction: alternate;
+
+
+      -o-animation-name: chgm-couleur;
+      -o-animation-duration: 4s;
+      -o-animation-timing-function: ease;
+      -o-animation-delay: 3s;
+      -o-animation-iteration-count: infinite;
+      -o-animation-direction: alternate;
+
+
+      animation-name: chgm-couleur;
+      animation-duration: 4s;
+      animation-timing-function: ease;
+      animation-delay: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+ }
+ @-webkit-keyframes chgm-couleur{
+     0%{background-color: green;top: 0px;left:0px;}
+     25%{background-color: yellow;top: 0px;left:200px;}
+     50%{background-color: red;top: 200px;left:200px;}
+     75%{background-color: blue;top: 200px;left:0px;}
+     100%{background-color: green;top: 0px;left:0px;}
+ }
